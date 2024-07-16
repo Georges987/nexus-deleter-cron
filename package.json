@@ -1,0 +1,14 @@
+{
+  "name": "delter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "deleted.js",
+  "scripts": {
+    "test": "node deleted.js"
+  },
+  "keywords": [
+    "NodeJs"
+  ],
+  "author": "",
+  "license": "ISC"
+}

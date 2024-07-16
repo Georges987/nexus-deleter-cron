@@ -17,7 +17,7 @@ async function getNotes() {
         });
 }
 
-getNotes();
+// getNotes();
 
 async function deleteNote(id) {
     await fetch(url + id, {
@@ -48,4 +48,4 @@ async function createPost(i) {
         });
 }
 
-// createManyPost(200);
+createManyPost(100);

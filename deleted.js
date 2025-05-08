@@ -13,6 +13,7 @@ async function getNotes() {
         .then((data) => {
             data.notes.forEach(async (note) => {
                 await deleteNote(note._id);
+		console.log("nexus dl");
             });
         });
 }

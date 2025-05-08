@@ -1,8 +1,8 @@
 var url = 'http://62.72.5.95:1999/notes/';
 // import { faker } from '@faker-js/faker';
 var faker = {
-    title: 'Hello, World!',
-    content: ['Dio Brando postIt seems to be very interesting']
+    title: 'Post IT',
+    content: ['Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione accusamus iste ducimus, est illum, assumenda odit quia id modi quis beatae hic eius quaerat nostrum molestiae ea repellat consequuntur debitis.']
 };
 
 var notes = [];
@@ -48,4 +48,4 @@ async function createPost(i) {
         });
 }
 
-createManyPost(100);
+createManyPost(10);
